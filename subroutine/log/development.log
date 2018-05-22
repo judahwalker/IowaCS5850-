@@ -1,0 +1,1213 @@
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:21:49 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,x := x + 1; y := x * 2 || x := x + y; y := x + y,{x->1, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 60362ms (Views: 399.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:25:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,x := x + 1; y := x * 2 || x := x + y; y := x + y,{x->1, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 47254ms (Views: 263.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:26:30 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1,x := x + 1; y := x * 2 || x := x + y; y := x + y,{x->1, y->2}"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 3000):
+  app/controllers/subroutine_controller.rb:105:in `create'
+
+
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/uwalkj6/.chefdk/gem/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.2ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:19 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,x := x + 1; y := x * 2 || x := x + y; y := x + y,{x->1, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 287ms (Views: 269.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:20 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1,x := x + 1; y := x * 2 || x := x + y; y := x + y,{x->1, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:21 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2,y := x * 2 || x := x + y; y := x + y,{x->2, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:21 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1,y := x * 2 || x := x + y; y := x + y,{x->2, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:23 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1,x := x + y; y := x + y,{x->2, y->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:24 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1,y := x + y,{x->6, y->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.2,y := x * 2 || y := x + y,{x->4, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1,y := x * 2 || y := x + y,{x->4, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:29 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1.1,y := x + y,{x->4, y->8}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:33 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.2.1,y := x * 2,{x->4, y->6}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:37 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2,x := x + 1; y := x * 2 || y := x + y,{x->3, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:37 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1,x := x + 1; y := x * 2 || y := x + y,{x->3, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:38 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.2,y := x * 2 || y := x + y,{x->4, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:38 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1,y := x * 2 || y := x + y,{x->4, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:41 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1,y := x + y,{x->4, y->8}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:44 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.2.1,y := x * 2,{x->4, y->6}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:47 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1,x := x + 1; y := x * 2,{x->3, y->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:27:50 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1,y := x * 2,{x->4, y->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:43 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->0, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:44 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->0, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:45 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:47 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:48 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:49 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:50 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:51 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:53 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:54 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:56 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2,x := x - 1 || x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:56 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1,x := x - 1 || x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:58 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->0, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:36:59 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:00 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:01 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:02 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:03 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:05 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:06 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:07 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:10 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2,x := x - 1 || z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:10 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1,x := x - 1 || z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:11 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:12 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:13 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:16 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:17 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:18 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:19 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1.1.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:22 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:22 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:23 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:24 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:25 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:26 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:29 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:30 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.1.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:32 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2,x := x - 1 || x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:32 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1,x := x - 1 || x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:34 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->1, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:35 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:36 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:37 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:38 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:40 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.1.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2,x := x - 1 || z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1,x := x - 1 || z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:43 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:44 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:46 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:47 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:48 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.1.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:50 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.2,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:50 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.1,x := x - 1 || while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:52 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:53 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.1.1.1,x := x + 1; z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->2, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:54 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.1.1.1.1,z := x + y; while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:55 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.1.1.1.1.1,while (x < 3) do (x := x + 1; z := x + y),{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-06 13:37:58 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.2.2.2.2.2.1,x := x - 1,{x->3, y->2, z->5}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:13 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.3,x := x + 1 || y := x - 2 || z := y - x || await (z = -1) then (x := 100),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 347ms (Views: 321.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,x := x + 1 || y := x - 2 || z := y - x || await (z = -1) then (x := 100),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1,x := x + 1 || y := x - 2 || z := y - x || await (z = -1) then (x := 100),{x->2, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2,y := x - 2 || z := y - x || await (z = -1) then (x := 100),{x->3, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1,y := x - 2 || z := y - x || await (z = -1) then (x := 100),{x->3, y->2, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for ::1 at 2016-12-08 09:43:15 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1,z := y - x || await (z = -1) then (x := 100),{x->3, y->1, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:18 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.2,y := x - 2 || await (z = -1) then (x := 100),{x->3, y->2, z->-1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:18 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1,y := x - 2 || await (z = -1) then (x := 100),{x->3, y->2, z->-1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:19 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1.1,await (z = -1) then (x := 100),{x->3, y->1, z->-1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:21 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.2.1,y := x - 2,{x->100, y->2, z->-1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:24 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2,x := x + 1 || z := y - x || await (z = -1) then (x := 100),{x->2, y->0, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:24 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1,x := x + 1 || z := y - x || await (z = -1) then (x := 100),{x->2, y->0, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:25 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1,z := y - x || await (z = -1) then (x := 100),{x->3, y->0, z->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:27 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.2.1,x := x + 1 || await (z = -1) then (x := 100),{x->2, y->0, z->-2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:30 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.3.2,x := x + 1 || y := x - 2 || await (z = -1) then (x := 100),{x->2, y->2, z->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:30 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.3.1,x := x + 1 || y := x - 2 || await (z = -1) then (x := 100),{x->2, y->2, z->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:31 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.3.1.1,y := x - 2 || await (z = -1) then (x := 100),{x->3, y->2, z->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:43:33 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.3.2.1,x := x + 1 || await (z = -1) then (x := 100),{x->2, y->0, z->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:22 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2,if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:22 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1,if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:23 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:23 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:25 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.2,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:25 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:26 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:26 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:27 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.2,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:27 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.2,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:29 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:29 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:31 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.2,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:31 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:32 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.2,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:32 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:33 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}"}
+  Rendered text template within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:33 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:34 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.2,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:34 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:35 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.1.1,x := 10,{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:38 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.2.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:39 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.2.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:40 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.2.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:41 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.1.2.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:44 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:45 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:46 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:47 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:49 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.1.2.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:51 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.2.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:52 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.2.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:53 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.1.2.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:56 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.2.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:57 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.2.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:58 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.2.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:44:59 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.1.2.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:02 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:03 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:04 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:05 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:07 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.1.2.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:09 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.2.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:10 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.2.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:12 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.1.2.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:14 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.2.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:15 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.2.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:16 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.2.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:18 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.1.2.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:20 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:21 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:22 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:24 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:25 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.1.2.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:27 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.2.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:28 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.2.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:30 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.1.2.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:32 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:33 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:34 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:36 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.1.2.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:38 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1,if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:39 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:40 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1,x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:42 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1,y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subroutine" for 127.0.0.1 at 2016-12-08 09:45:43 -0600
+Processing by SubroutineController#create as */*
+  Parameters: {"state"=>"0.2.1.1.1.1.1,while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"}
+  Rendered text template within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 17.6ms | ActiveRecord: 0.0ms)

@@ -1,0 +1,358 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}" [
+        fontsize = 8,
+        label = "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}"
+    ]
+
+    "x := 10,{x->11, y->3}" [
+        fontsize = 8,
+        label = "x := 10,{x->11, y->3}"
+    ]
+
+    "{x->10, y->3}" [
+        fontsize = 8,
+        label = "{x->10, y->3}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}"
+    ]
+
+    "{x->11, y->4}" [
+        fontsize = 8,
+        label = "{x->11, y->4}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}"
+    ]
+
+    "{x->11, y->3}" [
+        fontsize = 8,
+        label = "{x->11, y->3}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}"
+    ]
+
+    "{x->11, y->2}" [
+        fontsize = 8,
+        label = "{x->11, y->2}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8,
+        label = "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}" [
+        fontsize = 8,
+        label = "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}"
+    ]
+
+    "{x->11, y->1}" [
+        fontsize = 8,
+        label = "{x->11, y->1}"
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8,
+        label = "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}"
+    ]
+
+    "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)),{x->10, y->0}" [
+        fontsize = 8,
+        label = "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)),{x->10, y->0}"
+    ]
+
+    "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" [
+        fontsize = 8
+    ]
+
+    "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)) || x := 10,{x->8, y->0}" -> "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)),{x->10, y->0}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->8, y->0}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->0}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->9, y->1}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}" -> "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->1}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->10, y->2}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}" -> "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->2}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}" -> "x := 10,{x->11, y->3}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1) || x := 10,{x->11, y->3}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" [
+        fontsize = 8
+    ]
+
+    "x := 10,{x->11, y->3}" -> "{x->10, y->3}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->4}" -> "{x->11, y->4}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->3}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->3}" -> "{x->11, y->3}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->2}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->2}" -> "{x->11, y->2}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->1}" [
+        fontsize = 8
+    ]
+
+    "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" -> "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}" [
+        fontsize = 8
+    ]
+
+    "y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->11, y->1}" -> "{x->11, y->1}" [
+        fontsize = 8
+    ]
+
+    "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" -> "x := x + 1; y := y + 1; while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8
+    ]
+
+    "if (x > 10) then (while (x > 10) do (x := x - 1; y := y + 1)) else (while (x <= 10) do (x := x + 1; y := y + 1)),{x->10, y->0}" -> "while (x <= 10) do (x := x + 1; y := y + 1),{x->10, y->0}" [
+        fontsize = 8
+    ]
+}

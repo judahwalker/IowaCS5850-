@@ -1,0 +1,69 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "while (x > 10) do (x := x - 1),{x->13}'" [
+        fontsize = 8,
+        label = "while (x > 10) do (x := x - 1),{x->13}'"
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->13}'" [
+        fontsize = 8,
+        label = "x := x - 1; while (x > 10) do (x := x - 1),{x->13}'"
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->12}'" [
+        fontsize = 8,
+        label = "while (x > 10) do (x := x - 1),{x->12}'"
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->12}'" [
+        fontsize = 8,
+        label = "x := x - 1; while (x > 10) do (x := x - 1),{x->12}'"
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->11}'" [
+        fontsize = 8,
+        label = "while (x > 10) do (x := x - 1),{x->11}'"
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->11}'" [
+        fontsize = 8,
+        label = "x := x - 1; while (x > 10) do (x := x - 1),{x->11}'"
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->10}'" [
+        fontsize = 8,
+        label = "while (x > 10) do (x := x - 1),{x->10}'"
+    ]
+
+    "{x->10}'" [
+        fontsize = 8,
+        label = "{x->10}'"
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->13}'" -> "x := x - 1; while (x > 10) do (x := x - 1),{x->13}'" [
+        fontsize = 8
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->13}'" -> "while (x > 10) do (x := x - 1),{x->12}'" [
+        fontsize = 8
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->12}'" -> "x := x - 1; while (x > 10) do (x := x - 1),{x->12}'" [
+        fontsize = 8
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->12}'" -> "while (x > 10) do (x := x - 1),{x->11}'" [
+        fontsize = 8
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->11}'" -> "x := x - 1; while (x > 10) do (x := x - 1),{x->11}'" [
+        fontsize = 8
+    ]
+
+    "x := x - 1; while (x > 10) do (x := x - 1),{x->11}'" -> "while (x > 10) do (x := x - 1),{x->10}'" [
+        fontsize = 8
+    ]
+
+    "while (x > 10) do (x := x - 1),{x->10}'" -> "{x->10}'" [
+        fontsize = 8
+    ]
+}
